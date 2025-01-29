@@ -14,7 +14,6 @@ jobs:
               uses: cypress-io/github-action@v6
               with:
                 install: true
-                start: 'npm run dev'
                 
             - uses: actions/upload-artifact@v3
               if: always()

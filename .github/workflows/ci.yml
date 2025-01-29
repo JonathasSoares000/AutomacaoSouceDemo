@@ -15,7 +15,6 @@ jobs:
               with:
                 install: true
                 start: 'npm run dev'
-                build: 'npm run build'
                 
             - uses: actions/upload-artifact@v3
               if: always()
